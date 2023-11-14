@@ -98,7 +98,16 @@ li{
     .contact-info{
         font-size: 17px;
     }
- 
+    .contact-section{
+       display: flex; 
+       justify-content: space-between
+    }
+    @media (max-width: 600px) {
+        .contact-section{
+       display: block; 
+      
+    }
+    }
     </style>
 </head>
 <body>
@@ -112,7 +121,7 @@ li{
             </div>
         </header>
         <div class="divider2"></div>
-        <section class="contact-section" style="display: flex; justify-content: space-between;">
+        <section class="contact-section" >
             <div>
             <p class="contact-info" style="margin-top: 8px;">Gmail: <a href="mailto:fahadfarrukh26@gmail.com">fahadfarrukh26@gmail.com</a></p>
             <p class="contact-info" style="margin-top: 8px;">Phone: <a href="https://wa.me/+923023088474" >(+92) 03023088474</a></p>
